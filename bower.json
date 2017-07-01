@@ -1,0 +1,22 @@
+{
+  "name": "reset",
+  "authors": [
+    "James <jah5662@gmail.com>"
+  ],
+  "description": "just toying around",
+  "license": "Go Spurs Go",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "jquery-ui": "^1.12.1",
+    "normalize-css": "7.0.0"
+  }
+}
