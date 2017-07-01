@@ -1,27 +1,60 @@
-@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700");
-body { font-family: "Raleway", Helvetica, sans-serif; font-size: 0.9em; }
+body {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 0.9em; }
 
-span.new-line { display: inline; }
+span.new-line {
+  display: inline; }
 
-span.new-line:before { content: "\a "; white-space: pre; }
+span.new-line:before {
+  content: "\a ";
+  white-space: pre; }
 
-.tin { width: 100%; margin: 0 auto; padding: 0; box-shadow: inset 0px 0px 0px 0.5px #C7C7C7; }
+.tin {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: inset 0px 0px 0px 0.5px #C7C7C7; }
 
-.pod { width: 100%; max-width: 1024px; margin: 0 auto; position: relative; padding: 0; box-shadow: inset 0px 0px 0px 0.5px #C7C7C7; }
+.pod {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  box-shadow: inset 0px 0px 0px 0.5px #C7C7C7; }
 
-.mainHeaderTin { background-color: black; color: white; text-transform: uppercase; font-weight: bold; }
+.mainHeaderTin {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold; }
+  .mainHeaderPod__title {
+    padding: 0;
+    margin: 0;
+    font-size: 1.3em;
+    padding-left: 0.5em;
+    line-height: 2em;
+    text-align: center; }
 
-.mainHeaderPod__title { padding: 0; margin: 0; font-size: 1.3em; padding-left: 0.5em; line-height: 2em; text-align: center; }
+.contentPod__contact {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 500; }
 
-.contentPod__contact { text-align: center; font-size: 1.1em; font-weight: 500; }
+.contentPod__txt {
+  width: auto;
+  margin: 0 0.5em; }
 
-.contentPod__txt { width: auto; margin: 0 0.5em; }
+.contentPod__jobTitle {
+  margin-bottom: 0; }
 
-.contentPod__jobTitle { margin-bottom: 0; }
+.contentPod__dates {
+  padding: 0;
+  margin: 0;
+  font-style: italic; }
 
-.contentPod__dates { padding: 0; margin: 0; font-style: italic; }
-
-.contentPod__points { padding-left: 1.5em; }
-
-.contentPod__points li { padding-bottom: 0.5em; }
+.contentPod__points {
+  padding-left: 1.5em; }
+  .contentPod__points li {
+    padding-bottom: 0.5em; }
