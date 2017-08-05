@@ -13,16 +13,14 @@ span.new-line:before {
 .tin {
   width: 100%;
   margin: 0 auto;
-  padding: 0;
-  box-shadow: inset 0px 0px 0px 0.5px #C7C7C7; }
+  padding: 0; }
 
 .pod {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
   position: relative;
-  padding: 0;
-  box-shadow: inset 0px 0px 0px 0.5px #C7C7C7; }
+  padding: 0; }
 
 .mainHeaderTin {
   background-color: black;
